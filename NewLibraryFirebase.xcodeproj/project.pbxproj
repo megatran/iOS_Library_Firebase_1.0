@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E866EF5752C955EE3E001F8E /* Pods_NewLibraryFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26E420512B2B578B7C0E47C1 /* Pods_NewLibraryFirebase.framework */; };
+		EF7CA1571DEC4564007BE1B4 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7CA1561DEC4564007BE1B4 /* Book.swift */; };
+		EF7CA15B1DEC4A8A007BE1B4 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7CA15A1DEC4A8A007BE1B4 /* DetailViewController.swift */; };
 		EF8343AB1DEC42000066A597 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8343AA1DEC42000066A597 /* AppDelegate.swift */; };
 		EF8343AD1DEC42000066A597 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8343AC1DEC42000066A597 /* ViewController.swift */; };
 		EF8343B01DEC42000066A597 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF8343AE1DEC42000066A597 /* Main.storyboard */; };
 		EF8343B21DEC42000066A597 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF8343B11DEC42000066A597 /* Assets.xcassets */; };
 		EF8343B51DEC42000066A597 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF8343B31DEC42000066A597 /* LaunchScreen.storyboard */; };
+		EF8343BD1DEC42B00066A597 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF8343BC1DEC42B00066A597 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		26E420512B2B578B7C0E47C1 /* Pods_NewLibraryFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewLibraryFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		786492E4E2807515CD0B25E8 /* Pods-NewLibraryFirebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewLibraryFirebase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NewLibraryFirebase/Pods-NewLibraryFirebase.debug.xcconfig"; sourceTree = "<group>"; };
+		9244F5042D8100A5288B6B0E /* Pods-NewLibraryFirebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewLibraryFirebase.release.xcconfig"; path = "Pods/Target Support Files/Pods-NewLibraryFirebase/Pods-NewLibraryFirebase.release.xcconfig"; sourceTree = "<group>"; };
+		EF7CA1561DEC4564007BE1B4 /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Book.swift; path = ../Book.swift; sourceTree = "<group>"; };
+		EF7CA15A1DEC4A8A007BE1B4 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		EF7CA15C1DEC51C4007BE1B4 /* NewLibraryFirebase.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NewLibraryFirebase.entitlements; sourceTree = "<group>"; };
 		EF8343A71DEC42000066A597 /* NewLibraryFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewLibraryFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF8343AA1DEC42000066A597 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF8343AC1DEC42000066A597 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,7 @@
 		EF8343B11DEC42000066A597 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF8343B41DEC42000066A597 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF8343B61DEC42000066A597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF8343BC1DEC42B00066A597 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +40,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E866EF5752C955EE3E001F8E /* Pods_NewLibraryFirebase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BEBBB91C44229A7AFC66DE99 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				786492E4E2807515CD0B25E8 /* Pods-NewLibraryFirebase.debug.xcconfig */,
+				9244F5042D8100A5288B6B0E /* Pods-NewLibraryFirebase.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D4E2C1DF1B92234F1CD142B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26E420512B2B578B7C0E47C1 /* Pods_NewLibraryFirebase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EF83439E1DEC42000066A597 = {
 			isa = PBXGroup;
 			children = (
 				EF8343A91DEC42000066A597 /* NewLibraryFirebase */,
 				EF8343A81DEC42000066A597 /* Products */,
+				BEBBB91C44229A7AFC66DE99 /* Pods */,
+				D4E2C1DF1B92234F1CD142B4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,12 +85,16 @@
 		EF8343A91DEC42000066A597 /* NewLibraryFirebase */ = {
 			isa = PBXGroup;
 			children = (
+				EF7CA15C1DEC51C4007BE1B4 /* NewLibraryFirebase.entitlements */,
+				EF7CA1561DEC4564007BE1B4 /* Book.swift */,
+				EF8343BC1DEC42B00066A597 /* GoogleService-Info.plist */,
 				EF8343AA1DEC42000066A597 /* AppDelegate.swift */,
 				EF8343AC1DEC42000066A597 /* ViewController.swift */,
 				EF8343AE1DEC42000066A597 /* Main.storyboard */,
 				EF8343B11DEC42000066A597 /* Assets.xcassets */,
 				EF8343B31DEC42000066A597 /* LaunchScreen.storyboard */,
 				EF8343B61DEC42000066A597 /* Info.plist */,
+				EF7CA15A1DEC4A8A007BE1B4 /* DetailViewController.swift */,
 			);
 			path = NewLibraryFirebase;
 			sourceTree = "<group>";
@@ -71,9 +106,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF8343B91DEC42000066A597 /* Build configuration list for PBXNativeTarget "NewLibraryFirebase" */;
 			buildPhases = (
+				920E0C2A6BC7518FAD6DF180 /* [CP] Check Pods Manifest.lock */,
 				EF8343A31DEC42000066A597 /* Sources */,
 				EF8343A41DEC42000066A597 /* Frameworks */,
 				EF8343A51DEC42000066A597 /* Resources */,
+				F2569D0BB0D02D383BBD1F71 /* [CP] Embed Pods Frameworks */,
+				33FDE6CCF1E8600920A2B628 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -98,6 +136,11 @@
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = DLW5NH6NSH;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -125,12 +168,61 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF8343B51DEC42000066A597 /* LaunchScreen.storyboard in Resources */,
+				EF8343BD1DEC42B00066A597 /* GoogleService-Info.plist in Resources */,
 				EF8343B21DEC42000066A597 /* Assets.xcassets in Resources */,
 				EF8343B01DEC42000066A597 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33FDE6CCF1E8600920A2B628 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NewLibraryFirebase/Pods-NewLibraryFirebase-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		920E0C2A6BC7518FAD6DF180 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F2569D0BB0D02D383BBD1F71 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NewLibraryFirebase/Pods-NewLibraryFirebase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EF8343A31DEC42000066A597 /* Sources */ = {
@@ -139,6 +231,8 @@
 			files = (
 				EF8343AD1DEC42000066A597 /* ViewController.swift in Sources */,
 				EF8343AB1DEC42000066A597 /* AppDelegate.swift in Sources */,
+				EF7CA1571DEC4564007BE1B4 /* Book.swift in Sources */,
+				EF7CA15B1DEC4A8A007BE1B4 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,12 +353,14 @@
 		};
 		EF8343BA1DEC42000066A597 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 786492E4E2807515CD0B25E8 /* Pods-NewLibraryFirebase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NewLibraryFirebase/NewLibraryFirebase.entitlements;
 				DEVELOPMENT_TEAM = DLW5NH6NSH;
 				INFOPLIST_FILE = NewLibraryFirebase/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = edu.mines.nttran.NewLibraryFirebase;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.mines.nttran.CSCI498;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -272,12 +368,14 @@
 		};
 		EF8343BB1DEC42000066A597 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9244F5042D8100A5288B6B0E /* Pods-NewLibraryFirebase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NewLibraryFirebase/NewLibraryFirebase.entitlements;
 				DEVELOPMENT_TEAM = DLW5NH6NSH;
 				INFOPLIST_FILE = NewLibraryFirebase/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = edu.mines.nttran.NewLibraryFirebase;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.mines.nttran.CSCI498;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -302,6 +400,7 @@
 				EF8343BB1DEC42000066A597 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

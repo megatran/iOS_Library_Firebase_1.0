@@ -7,3 +7,10 @@
 //
 
 import Foundation
+
+class Book {
+    var id = UUID().uuidString
+    var title = ""
+    var author = ""
+    var year = ""
+}
